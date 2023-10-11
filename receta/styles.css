@@ -1,0 +1,30 @@
+/* Estilos personalizados */
+body {
+    background-color: #7db8ec; /* Azul claro para el fondo */
+}
+
+.card {
+    border: 2px solid #1e90ff; /* Borde azul */
+}
+
+.card-title {
+    color: #1e90ff; /* Texto azul para el título */
+}
+
+.btn-primary {
+    background-color: #1e90ff; /* Fondo azul para botones */
+    border-color: #1e90ff; /* Borde azul para botones */
+}
+
+.btn-primary:hover {
+    background-color: #007acc; /* Color de fondo al pasar el mouse */
+    border-color: #007acc; /* Color de borde al pasar el mouse */
+}
+
+header {
+    background-color: #1e90ff; /* Encabezado azul */
+}
+
+footer{
+    background-color: #021525;
+}
