@@ -1,0 +1,80 @@
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+.verde{
+    color: rgb(104, 192, 69);
+}
+
+.fondo-gris{
+    background-color: rgb(82, 82, 82);
+}
+
+.gris{
+    color: grey;
+}
+
+.boton-verde{
+    background-color: rgb(104, 192, 69);
+}
+
+.boton-orador{
+    border-color: white;
+    color:white;
+}
+
+footer{
+    background-color: rgba(31,81,113,255);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagen-bsas {
+    background-image: url('imagenes_integrador_front/ba12.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+    position: relative; 
+}
+
+.texto-imagen {
+    position: absolute;
+    bottom: 30%;
+    left: 60%;
+    padding: 10px;
+    right: 5%;
+    color: white; 
+}
+
+
+
+.texto-chico {
+    font-size: 0.8rem;
+}
+
+.bg-dark-gray {
+    background-color: rgba(51,59,65,255);
+}
+
+.margenForm {
+    margin-left: 12rem; 
+    margin-right: 12rem; 
+}
+
+@media (max-width: 767px) {
+    .margenForm {
+        margin-left: 2rem; 
+        margin-right: 2rem; 
+    }
+    .card{
+        padding-top: 2rem;
+    }
+    .texto-imagen{
+        left: 5%;
+    }
+}
+
+.fondoCeleste{
+    background-color: #cde5fe;
+}
